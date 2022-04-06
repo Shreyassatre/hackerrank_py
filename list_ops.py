@@ -1,3 +1,4 @@
+#perform list operations which are given in input
 if __name__ == '__main__':
     N = int(input())
     lis = []
