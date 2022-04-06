@@ -1,3 +1,4 @@
+#in a dictonary name is key and each key has array of all subjects marks, find average marks of secified student name
 if __name__ == '__main__':
     n = int(input())
     student_marks = {}
