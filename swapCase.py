@@ -5,11 +5,9 @@ def swap_case(s):
         ascival = ord(char)
         
         if(ascival in range(65,90+1)):
-            substr = char.lower()
-            res += substr
+            res += char.lower()
         elif(ascival in range(97, 122+1)):
-            substr = char.upper()
-            res += substr
+            res += char.upper()
         else:
             res += char
     
