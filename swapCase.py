@@ -1,3 +1,4 @@
+#swap cases of given sting, i.e convert uppercase letter to lowercase and lowercase to uppercase without using built in string method(swapcase())
 def swap_case(s):
     substr = ''
     res = ''
@@ -19,7 +20,7 @@ if __name__ == '__main__':
     print(result)
     
     
-#or simple code in python is
+#simple code in python to swap cases of sting using built in method
 
 def swap_case(s):
     res = s.swapcase()
