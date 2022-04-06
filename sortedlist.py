@@ -1,3 +1,4 @@
+#in 2 dimentional array the students name and scores are given, find second lowest score, if more than 1 student having same second lowest score then print their names in alphabetical order
 if __name__ == '__main__':
     students = []
     newlis = []
