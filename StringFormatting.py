@@ -15,3 +15,19 @@ def print_formatted(n):
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
+
+ 
+
+#Another Method
+
+def print_formatted(n):  
+    width = len(str(bin(n)))-2
+        
+    for i in range(1,n+1):
+        for base in('d','o','X','b'):
+            print('{0:{width}{base}}'.format(i, base=base, width=width),end=' ')
+        print()
+
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
